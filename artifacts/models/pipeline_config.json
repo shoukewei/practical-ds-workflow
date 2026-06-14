@@ -1,0 +1,26 @@
+{
+  "missing": {
+    "strategies": {
+      "TV": "median",
+      "radio": "mean",
+      "newspaper": 0.0
+    },
+    "indicator_columns": []
+  },
+  "outliers": {
+    "columns": [
+      "TV",
+      "newspaper"
+    ],
+    "method": "iqr",
+    "multiplier": 1.5
+  },
+  "scaling": {
+    "columns": [
+      "TV",
+      "radio",
+      "newspaper"
+    ],
+    "method": "standard"
+  }
+}
