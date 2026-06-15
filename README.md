@@ -1,12 +1,33 @@
 # Reusable Data Science Workflow
 
-A modular, reproducible workflow for tabular machine learning projects — built from a small set of
-focused, well-tested modules rather than one large notebook.
+A modular, reproducible workflow for tabular machine learning projects — built from a small set of focused, reusable, and well-tested modules rather than a single monolithic notebook.
 
-Each module owns one stage of the pipeline (loading, exploring, preprocessing, splitting, feature
-engineering, modelling) and follows a consistent **fit on training data, transform any split**
-pattern, so the same transformations are applied identically to training, validation, and test
-data.
+This project is the companion reusable workflow system developed throughout the book *Practical Data Science Engineering: Building Reusable Workflows and Pipelines in Python*, published by [Deepsim Press](https://press.deepsim.ca/?utm_source=chatgpt.com).
+
+Each module owns one stage of the pipeline (loading, exploring, preprocessing, splitting, feature engineering, modelling) and follows a consistent **fit on training data, transform any split** pattern, so the same transformations are applied identically to training, validation, and test data. The workflow demonstrates how reusable data science systems can be assembled from modular components for:
+
+* data loading and validation
+* exploratory data analysis (EDA)
+* preprocessing and feature engineering
+* reproducible dataset splitting
+* model training and evaluation
+* workflow orchestration
+* artifact organization and persistence
+
+Rather than treating data science as a collection of isolated scripts or notebook experiments, this project emphasizes:
+
+* modularity
+* reproducibility
+* maintainability
+* composability
+* workflow consistency
+
+The repository is intended both as:
+
+* a companion resource for readers of the book
+* a reusable starter template for practical machine learning workflows
+
+The complete workflow architecture evolves progressively throughout the book and culminates in this integrated reusable system.
 
 ## Project Structure
 
@@ -172,4 +193,4 @@ Deepsim Intelligence Technology Inc., Canada
 
 ## License
 
-Add your project's license here.
+MIT License.
